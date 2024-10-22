@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="shopping-cart-holder flex flex-col w-[520px] m-auto">
+      <!-- Single cart -->
+      <div class="flex items-center gap-60 border p-4 mt-2 bg-orange-100">
+        <img
+          class="w-44 h-52"
+          src="https://b1780171.smushcdn.com/1780171/wp-content/uploads/2024/03/FYM_2020_eCom_ShopUp_SkinCare_Duffle_Hero_V1_720x720.jpg?lossy=0&strip=1&webp=0"
+        />
+        <div class="flex flex-col gap-y-4 items-center">
+          <p>$100</p>
+          <div class="flex gap-2">
+            <button id="decrease-cart-items">-</button><span>2</span
+            ><span><button id="increase-cart-items">+</button></span>
+          </div>
+
+          <button
+            class="border px-1 bg-white rounded-full cursor-pointer"
+            id="like-items"
+          >
+            <i class="far fa-heart"></i>
+          </button>
+          <button
+            class="border w-16 p-1 bg-white rounded-md"
+            id="delete-cart-items"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+
+      <!-- Single cart -->
+      <div class="flex items-center gap-60 border p-4 mt-2 bg-orange-100">
+        <img
+          class="w-44 h-52"
+          src="https://b1780171.smushcdn.com/1780171/wp-content/uploads/2024/03/FYM_2020_eCom_ShopUp_SkinCare_Duffle_Hero_V1_720x720.jpg?lossy=0&strip=1&webp=0"
+        />
+        <div class="flex flex-col gap-y-4 items-center">
+          <p>$100</p>
+          <div class="flex gap-2">
+            <button id="decrease-cart-items">-</button><span>2</span
+            ><span><button id="increase-cart-items">+</button></span>
+          </div>
+
+          <button
+            class="border px-1 bg-white rounded-full cursor-pointer"
+            id="like-items"
+          >
+            <i class="far fa-heart"></i>
+          </button>
+          <button
+            class="border w-16 p-1 bg-white rounded-md"
+            id="delete-cart-items"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+
+      <!-- Single cart -->
+      <div class="flex items-center gap-60 border p-4 mt-2 bg-orange-100">
+        <img
+          class="w-44 h-52"
+          src="https://b1780171.smushcdn.com/1780171/wp-content/uploads/2024/03/FYM_2020_eCom_ShopUp_SkinCare_Duffle_Hero_V1_720x720.jpg?lossy=0&strip=1&webp=0"
+        />
+        <div class="flex flex-col gap-y-4 items-center">
+          <p>$100</p>
+          <div class="flex gap-2">
+            <button id="decrease-cart-items">-</button><span>2</span
+            ><span><button id="increase-cart-items">+</button></span>
+          </div>
+
+          <button
+            class="border px-1 bg-white rounded-full cursor-pointer"
+            id="like-items"
+          >
+            <i class="far fa-heart"></i>
+          </button>
+          <button
+            class="border w-16 p-1 bg-white rounded-md"
+            id="delete-cart-items"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+      <div class="flex justify-between border bg-orange-100 mt-2 p-1 px-4">
+        <h3>ToTal prize:</h3>
+        <p>$600</p>
+      </div>
+    </section>
+
+    <!-- Javascript link -->
+    <script src="index.js"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/52fac15d11.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
