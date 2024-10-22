@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="shopping-cart-holder flex flex-col w-[520px] m-auto">
+    <section
+      class="shopping-cart-holder flex flex-col w-[520px] m-auto"
+      id="romovecartitems"
+    >
       <!-- Single cart -->
       <div class="flex items-center gap-60 border p-4 mt-2 bg-orange-100">
         <img
@@ -17,8 +20,9 @@
         <div class="flex flex-col gap-y-4 items-center">
           <p>$100</p>
           <div class="flex gap-2">
-            <button id="decrease-cart-items">-</button><span>2</span
-            ><span><button id="increase-cart-items">+</button></span>
+            <button class="decrease-cart-items">-</button>
+            <span class="value-added">1</span>
+            <button class="increase-cart-items">+</button>
           </div>
 
           <button
@@ -27,10 +31,7 @@
           >
             <i class="far fa-heart"></i>
           </button>
-          <button
-            class="border w-16 p-1 bg-white rounded-md"
-            id="delete-cart-items"
-          >
+          <button class="delete-cart-items border w-16 p-1 bg-white rounded-md">
             Delete
           </button>
         </div>
@@ -45,8 +46,9 @@
         <div class="flex flex-col gap-y-4 items-center">
           <p>$100</p>
           <div class="flex gap-2">
-            <button id="decrease-cart-items">-</button><span>2</span
-            ><span><button id="increase-cart-items">+</button></span>
+            <button class="decrease-cart-items">-</button>
+            <span class="value-added">1</span>
+            <button class="increase-cart-items">+</button>
           </div>
 
           <button
@@ -55,10 +57,7 @@
           >
             <i class="far fa-heart"></i>
           </button>
-          <button
-            class="border w-16 p-1 bg-white rounded-md"
-            id="delete-cart-items"
-          >
+          <button class="delete-cart-items border w-16 p-1 bg-white rounded-md">
             Delete
           </button>
         </div>
@@ -73,8 +72,9 @@
         <div class="flex flex-col gap-y-4 items-center">
           <p>$100</p>
           <div class="flex gap-2">
-            <button id="decrease-cart-items">-</button><span>2</span
-            ><span><button id="increase-cart-items">+</button></span>
+            <button class="decrease-cart-items">-</button>
+            <span class="value-added">1</span>
+            <button class="increase-cart-items">+</button>
           </div>
 
           <button
@@ -83,14 +83,13 @@
           >
             <i class="far fa-heart"></i>
           </button>
-          <button
-            class="border w-16 p-1 bg-white rounded-md"
-            id="delete-cart-items"
-          >
+          <button class="delete-cart-items border w-16 p-1 bg-white rounded-md">
             Delete
           </button>
         </div>
       </div>
+
+      <!-- Total amount -->
       <div class="flex justify-between border bg-orange-100 mt-2 p-1 px-4">
         <h3>ToTal prize:</h3>
         <p>$600</p>
